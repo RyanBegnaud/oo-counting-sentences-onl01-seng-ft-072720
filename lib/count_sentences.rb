@@ -36,11 +36,5 @@ end
       count = self.split /\./
     end
     count
-    
-      
-    
-    
-
-
   end
 end
