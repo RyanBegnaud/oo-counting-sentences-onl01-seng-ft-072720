@@ -31,8 +31,8 @@ end
     if self.include?("!")
       count = self.split /\!|./
       binding.pry
-    count = count.length 
-    return count 
+      count = count.length 
+      return count 
     
     
 
