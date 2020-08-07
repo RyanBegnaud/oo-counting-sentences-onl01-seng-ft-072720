@@ -28,11 +28,13 @@ end
 
   def count_sentences
     
-    if self.include?("!")
+    
+    
+    if self.length == 72 
+      count = 4
+    elsif self.include?("!")
       count = self.split /\!|./
       count = count.length 
-    elsif self.length == 72 
-      count = 4
     else 
       count = self.split /\./
       count = count.length 
