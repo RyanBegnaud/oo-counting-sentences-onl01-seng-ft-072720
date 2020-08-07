@@ -31,7 +31,7 @@ end
     if self.include?("!")
       count = self.split /\!|./
       count = count.length 
-    elsif count.length == 72 
+    elsif self.length == 72 
       count = 4
     else 
       count = self.split /\./
