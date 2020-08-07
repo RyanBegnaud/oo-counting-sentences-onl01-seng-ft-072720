@@ -33,6 +33,7 @@ end
       count = count.length 
     else 
       count = self.split /\./
+      count = count.length 
     end
     count
   end
