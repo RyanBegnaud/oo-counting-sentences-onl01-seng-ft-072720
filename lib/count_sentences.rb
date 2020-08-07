@@ -34,6 +34,9 @@ end
       count = count.length 
     else 
       count = self.split /\./
+    end
+    count
+    
       
     
     
