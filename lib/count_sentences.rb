@@ -32,7 +32,9 @@ end
       count = self.split /\!|./
       binding.pry
       count = count.length 
-      return count 
+    else 
+      count = self.split /\./
+      
     
     
 
