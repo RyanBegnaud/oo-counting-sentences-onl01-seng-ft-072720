@@ -27,6 +27,7 @@ end
 end
 
   def count_sentences
+    
     count = self.split /\!|./
     
     count = count.length 
