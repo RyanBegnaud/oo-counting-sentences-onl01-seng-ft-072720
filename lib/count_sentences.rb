@@ -30,9 +30,7 @@ end
     
     if self.include?("!")
       count = self.split /\!|./
-      binding.pry
       count = count.length 
-      
     elsif count.length == 72 
       count = 4
     else 
