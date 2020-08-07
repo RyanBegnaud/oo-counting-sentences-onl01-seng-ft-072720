@@ -29,7 +29,7 @@ end
   def count_sentences
     
     if self.include?("!")
-    count = self.split /\!|./
+      count = self.split /\!|./
     binding.pry
     count = count.length 
     return count 
