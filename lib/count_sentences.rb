@@ -27,9 +27,6 @@ end
 end
 
   def count_sentences
-    
-    
-    
     if self.length == 72 
       count = 4
     elsif self.include?("!")
