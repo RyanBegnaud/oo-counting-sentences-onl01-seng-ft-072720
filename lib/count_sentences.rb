@@ -28,7 +28,7 @@ end
 
   def count_sentences
     binding.pry
-    count = self.split /!|?/
+    count = self.split /\s|,/
     
     count = count.length 
     return count 
